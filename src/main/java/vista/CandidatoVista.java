@@ -19,7 +19,7 @@ public class CandidatoVista {
 
         var candidatoControl = new CandidatoControl();
         candidatoControl.crear("Luis", "0107196156", "Presidente", 2002, "PN69", 3, 1250, 500, 100, "Azuay");
-        candidatoControl.crear("Jorge", "0107582648", "Tesorero", 1998, "VAL", 4, 2354, 350, 280, "Carchi");
+        candidatoControl.crear("Jorge", "0107582648", "Tesorero", 1999, "VAL", 4, 2354, 350, 280, "Carchi");
         candidatoControl.crear("Miguel", "0125638246", "Presidente", 1989, "PSP", 3, 3215, 202, 360, "Cotopaxi");
         System.out.println("Lista de Candidatos");
         for (Candidato candidato : candidatoControl.listar()) {
